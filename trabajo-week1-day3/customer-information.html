@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>checkout</title>
+</head>
+<body>
+    <!-- LINKS HEAD -->
+    <div>
+        <a href="">01 CUSTOMER INFO</a>
+        <a href="">02 SHIPPING INFO</a>
+        <a href="">03 PAYMENT SELECTION</a>
+    </div>
+    <!-- CUSTOMER INFORMATION -->
+    <fieldset>
+        <legend>Customer Information</legend>
+        <div>
+            <label for="firstname">FIRST NAME</label>
+        <input type="text" id="firstname">
+        </div>
+        <div>
+           <label for="lastname">LAST NAME</label>
+            <input type="text" id="lastname"> 
+        </div>
+        <div>
+            <label for="address">ADDRESS</label>
+            <input type="text" id="address" size="50"> 
+        </div>
+        <fieldset>
+            <legend>COUNTRY</legend>
+            <select name="Select-your-country" >
+                <option value="pais1" selected>Select your Country</option>
+                <option value="pais1">España</option>
+                <option value="pais1" >Alemania</option>
+                <option value="pais1">Reino Unido</option>
+                <option value="pais1">Francia</option>
+                <option value="pais1">Irlanda</option>
+                <option value="pais1">Paises Bajos</option>
+                <option value="pais1">Italia</option>
+            </select>
+            <label for="city">CITY</label>
+            <input type="text" id="city">
+        </fieldset>
+        <fieldset>
+            <label for="postalcode">POSTAL CODE</label>
+            <input type="search" id="postalcode">
+            <button type="menu">FIND</button>
+            <label for="telefono">PHONE</label>
+            <input type="tel" id="telefono">
+        </fieldset>      
+    </fieldset>
+    <!-- RETURN PAGE AND CONTINUE SHIPPING -->
+
+    <div>
+        <a href=""><--Return to shop</a>
+    </div>
+    <div>
+        <button type="submit"><a href="shipping-information.html">CONTINUE TO SHIPPING</a> </button>
+    </div>
+    <!-- SHOPPING CART -->
+    <div>
+        <h2>Shopping Cart</h2> 
+        <div>
+            <ul>
+                <li>Lightweight College Backpack 99.90€</li>
+                <li>Business Casual Leather Watch Waterproof 69.90€</li>
+            </ul>             
+        </div> 
+        <label for="voucher">Have a Voucher?</label>
+        <input type="button" id="voucher" value="⬇️">
+        <div>
+            <p>subtotal 169.80€</p>
+            <p>Shipping Free</p>
+            <p>Total 169.80€</p>
+        </div>
+              
+    </div>
+</body>
+</html>

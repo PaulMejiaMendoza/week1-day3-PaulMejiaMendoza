@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>checkout</title>
+</head>
+<body>
+    <fieldset>
+        <legend>Payment Selection</legend>
+        <input type="radio" id="credit-card" name="sex">
+        <label for="credit-card">Credit Card 💳💳💳💳</label>
+        <p>Safemoney transfer using your bank account. Visa, Maestro, Discover, American Express.</p>
+        <label for="card-number">Card Number</label>
+        <input type="numberonly" maxlength="16" id="card-number">
+        <div>
+            <label for="name-on-card">Name on Card</label>
+            <input type="text" id="name-on-card">
+            <label for="expiry-date">Expiry Date</label>
+            <input type="month" id="expiry-date">
+            <label for="cvv-code">Cvv Code</label>
+            <input type="numberonly" id="cvv-code" maxlength="3" placeholder="?">
+        </div>        
+    </fieldset>
+    <!-- PAYPAL -->
+        <div>
+            <input type="radio" name="sex" id="paypal">
+            <label for="paypal">PAYPAL </label>
+            <p>You will be Redirected to Paypal website to complete your purchase securely</p>
+        </div>
+    <!-- RETURN PAGE AND CONTINUE SHIPPING -->
+
+    <div>
+        <a href="shipping-information.html"><--Back to Shipping Info</a>
+    </div>
+    <div>
+        <button type="submit"><a href="">COMPLETE ORDER</a></button>
+    </div>
+    <!-- SHOPPING CART -->
+    <div>
+        <h2>Shopping Cart</h2> 
+        <div>
+            <ul>
+                <li>Lightweight College Backpack 99.90€</li>
+                <li>Business Casual Leather Watch Waterproof 69.90€</li>
+            </ul>             
+        </div> 
+        <label for="voucher">Have a Voucher?</label>
+        <input type="button" id="voucher" value="⬇️">
+        <div>
+            <p>subtotal 169.80€</p>
+            <p>Shipping Free</p>
+            <p>Total 169.80€</p>
+        </div>
+              
+    </div>
+</body>
+</html>
